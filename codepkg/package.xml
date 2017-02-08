@@ -3,9 +3,6 @@
     <types>
         <members>BatchDailyProcessor</members>
         <members>BatchDailyProcessor_Test</members>
-        <members>PRF_ReminderImpl</members>
-        <members>PRF_TriggerInternalImp</members>
-        <members>TaskHandler</members>
         <name>ApexClass</name>
     </types>
     <types>
