@@ -13,9 +13,9 @@ global class BatchDailyProcessor implements Database.Batchable<SObject>,Database
     global void execute(Database.BatchableContext BC, List<Job__c> batch) {
         system.debug('PK-->BatchDailyProcessor:execute'+ batch);
          for(Job__c j:batch){
-              TaskHandler.Job job= new TaskHandler.Job(j);
-              TaskHandler handler = new TaskHandler(job);
-              handler.execute(job);
+             // TaskHandler.Job job= new TaskHandler.Job(j);
+             // TaskHandler handler = new TaskHandler(job);
+             // handler.execute(job);
           }
     }
     
