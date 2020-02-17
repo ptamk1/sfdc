@@ -1,4 +1,5 @@
 global class BatchDailyProcessor implements Database.Batchable<SObject>,Database.stateful,Schedulable{
+// test
 	// this is a generic batch process that run daily
 	// it queries the custom object job queue and process using the taskhandler factory
     // a new comment
